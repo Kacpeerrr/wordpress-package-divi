@@ -1,0 +1,27 @@
+/*
+ Theme Name:     Divi Child
+ Template:       Divi
+*/
+
+#footer-info {
+	width: 100%;
+	margin: 0 auto;
+	text-align:center;
+}
+
+.content-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+@media (max-width: 1024px) {
+	.reverse-columns {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
+@media (max-width: 768px) {
+
+}
